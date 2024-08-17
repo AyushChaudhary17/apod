@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#apod-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#apod-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#apod-date {
+  color: #888;
+  margin-bottom: 20px;
+}
+
+#apod-description {
+  font-size: 1em;
+  line-height: 1.5;
+}
